@@ -1,0 +1,204 @@
+/* agregamos la fuente que vamos a utilizar en la pagina   */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../img/fondoHome.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+#home .container header {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+}
+
+#home .container header .container-header {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#home .container header .container-header h1 {
+  align-items: center;
+  color: #ff5080;
+}
+
+#home .container header .container-header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+#home .container header .container-header nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  margin: 0 12px;
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+#home .container header .container-header nav ul li a:hover {
+  color: #ff5080;
+}
+
+#home .container header .container-header .social-media a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
+#home .container header .container-header .social-media a:hover {
+  color: #ff5080;
+}
+#home .container .presentation {
+  max-width: 1100px;
+  height: 100vh;
+  margin: auto;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#home .container .presentation .welcome {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+#home .container .presentation h2 {
+  font-size: 55px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#home .container .presentation h2 span {
+  font-size: 30px;
+  color: #ff5080;
+}
+
+#home .container .presentation .description {
+  max-width: 700px;
+  margin: 25px auto;
+  font-size: 18px;
+  text-align: center;
+}
+
+#home .container .presentation a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 25px;
+  padding: 20px 25px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+#home .container .presentation a:hover {
+  background-color: #ff5080;
+}
+
+#icon-nav {
+  color: #fff;
+  display: none;
+}
+/* SECCION SOBRE MI */
+
+#aboutme {
+  max-width: 1100px;
+  margin: auto;
+  padding: 100px 15px;
+  color: #111135;
+  display: flex;
+}
+
+#aboutme .container-foto {
+  max-width: 400px;
+  margin-left: 80px;
+}
+
+#aboutme .container-foto img {
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+
+#aboutme .aboutme {
+  margin: 0 40px;
+}
+
+#aboutme .aboutme .section-title {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #111135;
+  text-decoration: underline;
+  text-decoration-color: #d3d3d3;
+  text-decoration-thickness: 5px;
+}
+
+#aboutme .aboutme h2 {
+  font-size: 34px;
+  font-weight: bold;
+  margin: 20px 0;
+  letter-spacing: 2px;
+}
+
+#aboutme .aboutme h2 span {
+  color: #ff5080;
+}
+
+#aboutme .aboutme h3 {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+#aboutme .aboutme p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #565656;
+  margin-bottom: 12px;
+}
+
+#aboutme .aboutme a {
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
+  border: 1.5px solid black;
+  border-radius: 30px;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+
+#aboutme .aboutme a:hover {
+  color: #fff;
+  background-color: #ff5080;
+}
