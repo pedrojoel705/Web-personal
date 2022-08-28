@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -23,15 +23,15 @@
             <h1>/PF/</h1>
             <nav id="nav" class="">
               <ul id="links">
-                <li><a href="#home">INICIO</a></li>
-                <li><a href="#aboutme">SOBRE MI</a></li>
-                <li><a href="#services">SERVICIOS</a></li>
-                <li><a href="#portafolio">PORTAFOLIO</a></li>
-                <li><a href="#contact">CONTACTO</a></li>
+                <li><a href="#home" class="seleccionado" onclick="selection(this)">INICIO</a></li>
+                <li><a href="#aboutme" onclick="selection(this)">SOBRE MI</a></li>
+                <li><a href="#services" onclick="selection(this)">SERVICIOS</a></li>
+                <li><a href="#portafolio" onclick="selection(this)">PORTAFOLIO</a></li>
+                <li><a href="#contact" onclick="selection(this)">CONTACTO</a></li>
               </ul>
             </nav>
             <!-- Iconos del menu responsive -->
-            <div id="icon-nav">
+            <div id="icon-nav"  onclick="responsiveMenu()" >
               <i class="fa-solid fa-bars"></i>
             </div>
             <!-- Iconos de redes sociales -->
@@ -188,7 +188,7 @@
           <span class="percentage">90%</span>
         </div>
         <div class="bar">
-          <div id="html" class="bar-progreso1"></div>
+          <div id="html" class="j"></div>
         </div>
         </div>
    
@@ -238,7 +238,6 @@
     </div>
 
     <!-- SECTION PORTAFOLIO -->
-
     <section id="portafolio">
       <h3 class="section-title">MIS PROYECTOS</h3>
       <div class="row">
@@ -325,7 +324,39 @@
  
     </section>
 
+    <!-- SECCION CONTACTOS -->
+    <section id="contact">
+      <h3 class="section-title">Contactanos ahora</h3>
+      <div class="container-form">
+        <form action="">
+          <div class="row mitad">
+            <input type="text" placeholder="Nombre Completo" class="input-mitad" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+            <input type="email" placeholder="Email" class="input-mitad" title="Email Incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+          </div>
+          <div>
+            <input type="text" name="subject" placeholder="Asunto a tratar" title="El Asunto es Requerido" class="input-full"  required>            
+          </div>
+          <div class="row">
+            <textarea name="comments" cols="50" rows="5" placeholder="Escribes tus comentarios" data-pattern="^.{1,255}$" title="Tu comentario no debe exceder los 255 caracteres" class="input-full" required></textarea>
+          </div>
+          <input type="submit" value="send mensage" class="btn-send">
+        </form>
+      </div>
+    </section>
 
-    
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer">
+      <p>Todos los Derechos Reservados 2022</p>
+       <div class="social-media">
+              <a href="https://www.linkedin.com/in/pedro-joel-fermin-moreno-4b1377114/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/pedrojoel705" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+          </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
   </body>
 </html>
