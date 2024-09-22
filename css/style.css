@@ -1,10 +1,10 @@
 /* agregamos la fuente que vamos a utilizar en la pagina   */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 html {
@@ -13,7 +13,7 @@ html {
 
 #home {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('../img/fondoHome.jpg');
+    url("../img/fondoHome.jpg");
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -122,6 +122,23 @@ html {
   transition: 0.5s;
 }
 #home .container .presentation a:hover {
+  background-color: #ff5080;
+}
+
+#downloadBtn {
+  text-decoration: none;
+  display: inline-block;
+  margin: 25px;
+  padding: 20px 25px;
+  border: 2px solid #0b0a0a;
+  border-radius: 50px;
+  color: #0d0c0c;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#downloadBtn:hover {
   background-color: #ff5080;
 }
 
@@ -283,7 +300,7 @@ html {
 
 .container-skills {
   background: linear-gradient(#eb5a5acc, rgba(33, 16, 16, 0.8)),
-    url('../img/fondoSkill.jpg');
+    url("../img/fondoSkill.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;

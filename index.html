@@ -1,362 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>PF Software Developer</title>
-  </head>
-  <body>
-    <!-- HOME SECTION -->
-    <section id="home">
-      <div class="container">
-        <header>
-          <div class="container-header">
-            <h1>/PF/</h1>
-            <nav id="nav" class="">
-              <ul id="links">
-                <li><a href="#home" class="seleccionado" onclick="selection(this)">INICIO</a></li>
-                <li><a href="#aboutme" onclick="selection(this)">SOBRE MI</a></li>
-                <li><a href="#services" onclick="selection(this)">SERVICIOS</a></li>
-                <li><a href="#portafolio" onclick="selection(this)">PORTAFOLIO</a></li>
-                <li><a href="#contact" onclick="selection(this)">CONTACTO</a></li>
-              </ul>
-            </nav>
-            <!-- Iconos del menu responsive -->
-            <div id="icon-nav"  onclick="responsiveMenu()" >
-              <i class="fa-solid fa-bars"></i>
-            </div>
-            <!-- Iconos de redes sociales -->
-            <div class="social-media">
-              <a href="https://www.linkedin.com/in/pedro-joel-fermin-moreno-4b1377114/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="https://github.com/pedrojoel705" target="_blank"><i class="fa-brands fa-github"></i></a>
-              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-            </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>PF Software Developer</title>
+</head>
+
+<body>
+  <!-- HOME SECTION -->
+  <section id="home">
+    <div class="container">
+      <header>
+        <div class="container-header">
+          <h1>/PF/</h1>
+          <nav id="nav" class="">
+            <ul id="links">
+              <li><a href="#home" class="seleccionado" onclick="selection(this)">INICIO</a></li>
+              <li><a href="#aboutme" onclick="selection(this)">SOBRE MI</a></li>
+              <li><a href="#services" onclick="selection(this)">SERVICIOS</a></li>
+              <li><a href="#portafolio" onclick="selection(this)">PORTAFOLIO</a></li>
+              <li><a href="#contact" onclick="selection(this)">CONTACTO</a></li>
+            </ul>
+          </nav>
+          <!-- Iconos del menu responsive -->
+          <div id="icon-nav" onclick="responsiveMenu()">
+            <i class="fa-solid fa-bars"></i>
           </div>
-        </header>
-        <div class="presentation">
-          <p class="welcome">Bienvenidos</p>
-          <h2>Soy <span>Pedro Fermin</span>, Desarrollador de Software</h2>
-          <p class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore
-            dolores totam, amet commodi qui laborum explicabo velit!
-          </p>
-          <a href="#portafolio">Ir a Portafolio</a>
+          <!-- Iconos de redes sociales -->
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/pedro-joel-fermin-moreno-4b1377114/" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/pedrojoel705" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/pejoffer/"><i class="fa-brands fa-square-instagram"></i></a>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <!-- SECCION SOBRE MI -->
-    <section id="aboutme">
-      <div class="container-foto">
-        <img src="img/IMG-20220730-WA0034.jpeg" alt="pedro fermin" />
-      </div>
-      <div class="aboutme">
-        <p class="section-title">Sobre Mi</p>
-        <h2>Hola, soy <span>Pedro Fermin</span></h2>
-        <h3>Desarrollador de Software</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse
-          asperiores sequi maxime ad eveniet hic consequuntur delectus vitae!
-          Beatae repudiandae enim error pariatur praesentium non animi nisi
-          minus.
+      </header>
+      <div class="presentation">
+        <p class="welcome">Bienvenidos</p>
+        <h2>Soy <span>Pedro Fermin</span>, Desarrollador de Software</h2>
+        <p class="description">
+          Apasionado por crear soluciones tecnológicas innovadoras que marcan la diferencia.
         </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-          repellat.
-        </p>
-        <a href="#">Descargar CV</a>
+        <a href="#portafolio">Ir a Portafolio</a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- SECCTION SERVICIOS -->
-    <section id="services">
-      <h3 class="section-title">Mis Servicios</h3>
-      <div class="row">
-        <div class="services">
-          <span class="icon"><i class="fa-solid fa-laptop-code"></i></span>
-          <h4>Diseño de Sitios Web</h4>
-          <hr />
-          <ul class="tag-services">
-            <li>Web</li>
-            <li>Graphic</li>
-            <li>SEO</li>
-          </ul>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit iusto sed libero officiis enim accusantium eos
-            eligendi.
-          </p>
+  <!-- SECCION SOBRE MI -->
+  <section id="aboutme">
+    <div class="container-foto">
+      <img src="img/IMG-20220730-WA0034.jpeg" alt="pedro fermin" />
+    </div>
+    <div class="aboutme">
+      <p class="section-title">Sobre Mi</p>
+      <h2>Hola, soy <span>Pedro Fermin</span></h2>
+      <h3>Desarrollador de Software</h3>
+      <p>
+        Soy un desarrollador de software con más de dos años de experiencia en la creación de soluciones tecnológicas.
+        Especializado en tecnologías web y en la implementación de aplicaciones eficientes, escalables y orientadas al
+        cliente. Tengo experiencia trabajando con Node.js, React, y otras herramientas modernas, además de un sólido
+        manejo en automatización de pruebas con Playwright y despliegue de aplicaciones en entornos Docker.
+      </p>
+      <p>
+        Estoy
+        siempre en busca de aprender y aplicar nuevas tecnologías para mejorar tanto mi trabajo como el valor entregado
+        a los proyectos en los que participo.
+      </p>
+      <button id="downloadBtn">Descargar CV</button>
+    </div>
+  </section>
+
+  <!-- SECCTION SERVICIOS -->
+  <section id="services">
+    <h3 class="section-title">Mis Servicios</h3>
+    <div class="row">
+      <div class="services">
+        <span class="icon"><i class="fa-solid fa-laptop-code"></i></span>
+        <h4>Diseño de Sitios Web</h4>
+        <hr />
+        <ul class="tag-services">
+          <li>Web</li>
+          <li>Graphic</li>
+          <li>SEO</li>
+        </ul>
+        <p>
+          Diseño y desarrollo de sitios web responsivos, optimizados para la experiencia del usuario y con un enfoque en
+          la estética visual. Integro buenas prácticas de SEO para garantizar visibilidad en los motores de búsqueda y
+          asegurar un rendimiento óptimo en todos los dispositivos.
+        </p>
+      </div>
+      <div class="services">
+        <span class="icon"><i class="fa-brands fa-uncharted"></i></i></span>
+        <h4>Desarrollo de Software</h4>
+        <hr />
+        <ul class="tag-services">
+          <li>Web</li>
+          <li>Graphic</li>
+          <li>SEO</li>
+        </ul>
+        <p>
+          Desarrollo de aplicaciones personalizadas para satisfacer las necesidades de tu negocio. Especializado en
+          tecnologías modernas como Node.js, React, y en la creación de soluciones escalables y eficientes que se
+          adapten a los requisitos de los clientes
+        </p>
+      </div>
+      <div class="services">
+        <span class="icon"><i class="fa-solid fa-circle-question"></i></span>
+        <h4>Asesorias</h4>
+        <hr />
+        <ul class="tag-services">
+          <li>Web</li>
+          <li>Graphic</li>
+          <li>SEO</li>
+        </ul>
+        <p>
+          Ofrezco asesorías personalizadas en el desarrollo de proyectos tecnológicos, desde la planificación hasta la
+          implementación. Ayudo a optimizar procesos, elegir las herramientas adecuadas y resolver problemas técnicos
+          para que logres tus objetivos de manera eficiente.
+        </p>
+        </p>
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+  <!-- SECCTION  HABILIDADES -->
+  <div class="container-skills" id="skills">
+    <h3>habilidades</h3>
+    <div class="skill">
+      <div class="info">
+        <p><span class="list"></span>Html & Css</p>
+        <span class="percentage">90%</span>
+      </div>
+      <div class="bar">
+        <div id="html" class="j"></div>
+      </div>
+    </div>
+
+
+    <div class="skill">
+      <div class="info">
+        <p><span class="list"></span>JavaScript</p>
+        <span class="percentage">90%</span>
+      </div>
+      <div class="bar">
+        <div id="js" class=""></div>
+      </div>
+    </div>
+
+
+    <div class="skill">
+      <div class="info">
+        <p><span class="list"></span>React</p>
+        <span class="percentage">20%</span>
+      </div>
+      <div class="bar">
+        <div id="react" class=""></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="info">
+        <p><span class="list"></span>Node Js</p>
+        <span class="percentage">90%</span>
+      </div>
+      <div class="bar">
+        <div id="node" class=""></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="info">
+        <p>
+          <span class="list"></span>MongoDb
+        </p>
+        <span class="percentage">80%</span>
+      </div>
+      <div class="bar">
+        <div id="mongo" class=""></div>
+      </div>
+    </div>
+
+
+    <div class="skill">
+      <div class="info">
+        <p><span class="list"></span>SQL</p>
+        <span class="percentage">75%</span>
+      </div>
+      <div class="bar">
+        <div id="bd" class=""></div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="skill">
+      <div class="info">
+        <p><span class="list"></span>Docker</p>
+        <span class="percentage">60%</span>
+      </div>
+      <div class="bar">
+        <div id="docker" class=""></div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- SECTION PORTAFOLIO -->
+  <section id="portafolio">
+    <h3 class="section-title">MIS PROYECTOS</h3>
+    <div class="row">
+      <div class="proyect">
+        <div class="overlay"></div>
+        <img src="img/proyecto4.jpg" alt="">
+        <div class="info">
+          <h4>Descripción del Proyecto</h4>
+          <p>Diseño Web</p>
         </div>
-        <div class="services">
-          <span class="icon"><i class="fa-brands fa-uncharted"></i></i></span>
-          <h4>Desarrollo de Software</h4>
-          <hr />
-          <ul class="tag-services">
-            <li>Web</li>
-            <li>Graphic</li>
-            <li>SEO</li>
-          </ul>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit iusto sed libero officiis enim accusantium eos
-            eligendi.
-          </p>
+      </div>
+      <div class="proyect">
+        <div class="overlay"></div>
+        <img src="img/proyecto1.jpg" alt="">
+        <div class="info">
+          <h4>Descripción del Proyecto</h4>
+          <p>Diseño Web</p>
         </div>
-        <div class="services">
-          <span class="icon"><i class="fa-solid fa-circle-question"></i></span>
-          <h4>Asesorias</h4>
-          <hr />
-          <ul class="tag-services">
-            <li>Web</li>
-            <li>Graphic</li>
-            <li>SEO</li>
-          </ul>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit iusto sed libero officiis enim accusantium eos
-            eligendi.
-          </p>
+      </div>
+
+      <div class="proyect">
+        <div class="overlay"></div>
+        <img src="img/proyecto2.jpg" alt="">
+        <div class="info">
+          <h4>Descripción del Proyecto</h4>
+          <p>Diseño Web</p>
         </div>
-       
+      </div>
+
+
+
+
+
+
+
+    </div>
+
+  </section>
+
+  <!-- SECCION CONTACTOS -->
+  <section id="contact">
+    <h3 class="section-title">Contactanos ahora</h3>
+    <div class="container-form">
+      <form action="" id="contact-form" action="javascript:void(0);">
+        <div class=" row mitad">
+          <input type="text" placeholder="Nombre Completo" class="input-mitad"
+            title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+          <input type="email" placeholder="Email" class="input-mitad" title="Email Incorrecto"
+            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+        </div>
+        <div>
+          <input type="text" name="subject" placeholder="Asunto a tratar" title="El Asunto es Requerido"
+            class="input-full" required>
         </div>
         <div class="row">
-        <div class="services">
-          <span class="icon"><i class="fa-solid fa-laptop-code"></i></span>
-          <h4>Diseño de Sitios Web</h4>
-          <hr />
-          <ul class="tag-services">
-            <li>Web</li>
-            <li>Graphic</li>
-            <li>SEO</li>
-          </ul>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit iusto sed libero officiis enim accusantium eos
-            eligendi.
-          </p>
+          <textarea name="comments" cols="50" rows="5" placeholder="Escribes tus comentarios" data-pattern="^.{1,255}$"
+            title="Tu comentario no debe exceder los 255 caracteres" class="input-full" required></textarea>
         </div>
-        <div class="services">
-          <span class="icon"><i class="fa-solid fa-laptop-code"></i></span>
-          <h4>Diseño de Sitios Web</h4>
-          <hr />
-          <ul class="tag-services">
-            <li>Web</li>
-            <li>Graphic</li>
-            <li>SEO</li>
-          </ul>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit iusto sed libero officiis enim accusantium eos
-            eligendi.
-          </p>
-        </div>
-        <div class="services">
-          <span class="icon"><i class="fa-solid fa-laptop-code"></i></span>
-          <h4>Diseño de Sitios Web</h4>
-          <hr />
-          <ul class="tag-services">
-            <li>Web</li>
-            <li>Graphic</li>
-            <li>SEO</li>
-          </ul>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit iusto sed libero officiis enim accusantium eos
-            eligendi.
-          </p>
-        </div>
-       
-        </div>
-      </div>
-    </section>
-
-    <!-- SECCTION  HABILIDADES -->
-    <div class="container-skills" id="skills">
-      <h3>habilidades</h3>
-      <div class="skill">
-        <div class="info">
-          <p><span class="list"></span>Html & Css</p>
-          <span class="percentage">90%</span>
-        </div>
-        <div class="bar">
-          <div id="html" class="j"></div>
-        </div>
-        </div>
-   
-
-      <div class="skill">
-        <div class="info">
-          <p><span class="list"></span>JavaScript</p>
-          <span class="percentage">90%</span>
-        </div>        
-        <div class="bar">
-          <div id="js" class=""></div>
-           </div>
-            </div>
-
-
-        <div class="skill">
-        <div class="info">
-          <p><span class="list"></span>React</p>
-          <span class="percentage">20%</span>
-        </div>
-        <div class="bar">
-          <div id="react" class=""></div>
-           </div> 
-          </div>
-
-
-        <div class="skill">
-        <div class="info">
-          <p><span class="list"></span>Base de Datos</p>
-          <span class="percentage">75%</span>
-        </div>
-        <div class="bar">
-          <div id="bd" class=""></div>
-        </div>
-         </div>
-          
-
-        <div class="skill">
-        <div class="info">
-          <p><span class="list"></span>Python</p>
-          <span class="percentage">10%</span>
-        </div>
-        <div class="bar">
-          <div id="py" class=""></div>
-        </div>     
+        <input type="submit" value="send mensage" class="btn-send">
+      </form>
+      <p id="status-message" style="display: none;"></p>
     </div>
-    </div>
+  </section>
 
-    <!-- SECTION PORTAFOLIO -->
-    <section id="portafolio">
-      <h3 class="section-title">MIS PROYECTOS</h3>
-      <div class="row">
-        <div class="proyect">
-          <div class="overlay"></div>
-          <img src="img/proyecto4.jpg" alt="">
-          <div class="info">
-            <h4>Descripción del Proyecto</h4>
-            <p>Diseño Web</p>
-          </div>
-        </div>
-        <div class="proyect">
-          <div class="overlay"></div>
-          <img src="img/proyecto1.jpg" alt="">
-          <div class="info">
-            <h4>Descripción del Proyecto</h4>
-            <p>Diseño Web</p>
-          </div>
-        </div>
-
-        <div class="proyect">
-          <div class="overlay"></div>
-          <img src="img/proyecto2.jpg" alt="">
-          <div class="info">
-            <h4>Descripción del Proyecto</h4>
-            <p>Diseño Web</p>
-          </div>
-        </div>
-
-        <div class="proyect">
-          <div class="overlay"></div>
-          <img src="img/proyecto1.jpg" alt="">
-          <div class="info">
-            <h4>Descripción del Proyecto</h4>
-            <p>Diseño Web</p>
-          </div>
-        </div>
-
-        <div class="proyect">
-          <div class="overlay"></div>
-          <img src="img/proyecto4.jpg" alt="">
-          <div class="info">
-            <h4>Descripción del Proyecto</h4>
-            <p>Diseño Web</p>
-          </div>
-        </div>
-
-        <div class="proyect">
-          <div class="overlay"></div>
-          <img src="img/proyecto1.jpg" alt="">
-          <div class="info">
-            <h4>Descripción del Proyecto</h4>
-            <p>Diseño Web</p>
-          </div>
-        </div>
-
-        <div class="proyect">
-          <div class="overlay"></div>
-          <img src="img/proyecto2.jpg" alt="">
-          <div class="info">
-            <h4>Descripción del Proyecto</h4>
-            <p>Diseño Web</p>
-          </div>
-        </div>
-
-        <div class="proyect">
-          <div class="overlay"></div>
-          <img src="img/proyecto3.jpg" alt="">
-          <div class="info">
-            <h4>Descripción del Proyecto</h4>
-            <p>Diseño Web</p>
-          </div>
-        </div>
-
-        <div class="proyect">
-          <div class="overlay"></div>
-          <img src="img/proyecto4.jpg" alt="">
-          <div class="info">
-            <h4>Descripción del Proyecto</h4>
-            <p>Diseño Web</p>
-          </div>
-        </div>
-      </div>   
- 
-    </section>
-
-    <!-- SECCION CONTACTOS -->
-    <section id="contact">
-      <h3 class="section-title">Contactanos ahora</h3>
-      <div class="container-form">
-        <form action="">
-          <div class="row mitad">
-            <input type="text" placeholder="Nombre Completo" class="input-mitad" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
-            <input type="email" placeholder="Email" class="input-mitad" title="Email Incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
-          </div>
-          <div>
-            <input type="text" name="subject" placeholder="Asunto a tratar" title="El Asunto es Requerido" class="input-full"  required>            
-          </div>
-          <div class="row">
-            <textarea name="comments" cols="50" rows="5" placeholder="Escribes tus comentarios" data-pattern="^.{1,255}$" title="Tu comentario no debe exceder los 255 caracteres" class="input-full" required></textarea>
-          </div>
-          <input type="submit" value="send mensage" class="btn-send">
-        </form>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer>
-      <div class="footer">
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer">
       <p>Todos los Derechos Reservados 2022</p>
-       <div class="social-media">
-              <a href="https://www.linkedin.com/in/pedro-joel-fermin-moreno-4b1377114/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="https://github.com/pedrojoel705" target="_blank"><i class="fa-brands fa-github"></i></a>
-              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-            </div>
-          </div>
-    </footer>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/pedro-joel-fermin-moreno-4b1377114/" target="_blank"><i
+            class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/pedrojoel705" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/pejoffer/"><i class="fa-brands fa-square-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
 
 
-    <script src="js/script.js"></script>
-  </body>
+  <script src="js/script.js"></script>
+  <script>
+
+    document.getElementById("contact-form").addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      const statusMessage = document.getElementById("status-message");
+
+      statusMessage.style.display = "block";
+      statusMessage.style.textAlign = "center";
+      statusMessage.style.padding = "20px";
+      statusMessage.style.fontSize = "30px";
+
+
+      statusMessage.innerText = "Enviando mensaje...";
+
+      setTimeout(() => {
+        statusMessage.innerText = "¡Mensaje enviado correctamente!";
+        statusMessage.style.color = "green";
+
+        document.getElementById("contact-form").reset();
+      }, 2000);
+    });
+  </script>
+
+</body>
+
 </html>
